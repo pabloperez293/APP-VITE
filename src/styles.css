@@ -6,3 +6,17 @@ html, body{
     font-size: 18px;
     padding: 70px;
 }
+button{
+    margin-right: 5px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    line-height: 0;
+    background-color: #21DBAA;
+    border-radius: 20px;
+    border: 1px solid #21DBAA;
+    padding: 0 20px;
+    cursor: pointer;
+    font-family: inherit;
+}
