@@ -1,5 +1,3 @@
-function getSaludo( name ) {
-    return 'Hola ' + name + "!!!";
+export function getSaludo( name ) {
+    return 'Hola ' + name;
 }
-
-export default getSaludo;

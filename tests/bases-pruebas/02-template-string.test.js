@@ -7,7 +7,7 @@ describe('Pruebas en el archivo 02 string', () => {
         const name = "Pablo";
         const mensaje = getSaludo( name );
 
-        expect( mensaje ).toBe(`hola ${ name }!!!`)
+        expect( mensaje ).toBe(`Hola ${ name }`)
 
     });
 
