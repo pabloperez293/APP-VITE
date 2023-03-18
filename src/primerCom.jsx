@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const primerCom = ({title, subTitle,  name}) => {
+export const PrimerCom = ({ title, subTitle,  name }) => {
   
     return (
     <>
@@ -14,16 +14,15 @@ const primerCom = ({title, subTitle,  name}) => {
   )
 }
 
-primerCom.propTypes = {
+PrimerCom.propTypes = {
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string,
 }
 
-primerCom.defaultProps ={
-  title: "no hay titulo!!",
-  subTitle: "si Lo hay",
-  name: "Soy Spider man"
+PrimerCom.defaultProps = {
+  name: `no hay titulo!!`,
+  subTitle: `si Lo hay`,
+  // title: `Soy Spider man`,
 }
 
-
-export default primerCom;
+export default PrimerCom;
